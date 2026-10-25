@@ -1,0 +1,43 @@
+{
+    "project": "Customer Churn Prediction",
+    "dataset": "IBM Telco Customer Churn",
+    "selected_model": "XGBoost",
+    "target": "Churn",
+    "target_mapping": {
+        "No": 0,
+        "Yes": 1
+    },
+    "features": [
+        "gender",
+        "SeniorCitizen",
+        "Partner",
+        "Dependents",
+        "tenure",
+        "PhoneService",
+        "MultipleLines",
+        "InternetService",
+        "OnlineSecurity",
+        "OnlineBackup",
+        "DeviceProtection",
+        "TechSupport",
+        "StreamingTV",
+        "StreamingMovies",
+        "Contract",
+        "PaperlessBilling",
+        "PaymentMethod",
+        "MonthlyCharges",
+        "TotalCharges"
+    ],
+    "test_metrics": {
+        "Accuracy": 0.7963094393186657,
+        "Precision": 0.6464646464646465,
+        "Recall": 0.5133689839572193,
+        "F1": 0.5722801788375559,
+        "ROC_AUC": 0.8420419023999586
+    },
+    "versions": {
+        "scikit_learn": "1.9.1",
+        "xgboost": "3.4.1",
+        "joblib": "1.6.0"
+    }
+}
